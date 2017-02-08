@@ -83,6 +83,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.clear:
                 a = new ArrayList<>();
                 break;
+            case R.id.equals:
+
+                break;
         }
         t.setText(a.toString());
     }
