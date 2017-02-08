@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         a = new ArrayList<>();
     }
 
-    public void addString(View view) {
+    public void buttonPressed(View view) {
         TextView t = (TextView)findViewById(R.id.currentNum);
 
         switch (view.getId()) {
